@@ -14,9 +14,10 @@
       align-items: center;
   
       img {
+        margin-left: 50px;
         width: 50px;
         height: auto;
-        border-radius: 50%; // make the image circular if it's a logo
+        border-radius: 51% 49% 55% 45% / 32% 36% 64% 68% ; // make the image circular if it's a logo
       }
     }
   
