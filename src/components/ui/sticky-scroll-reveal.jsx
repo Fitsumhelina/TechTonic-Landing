@@ -35,6 +35,7 @@ export const StickyScroll = ({
     "var(--black)",
     "var(--neutral-900)",
   ];
+
   const linearGradients = [
     "linear-gradient(to bottom right, var(--cyan-500), var(--emerald-500))",
     "linear-gradient(to bottom right, var(--pink-500), var(--indigo-500))",
@@ -75,7 +76,7 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-slate-300 max-w-sm mt-10">
+                className="text-lg text-slate-300 max-w-sm mt-10">
                 {item.description}
               </motion.p>
             </div>
@@ -83,13 +84,21 @@ export const StickyScroll = ({
           <div className="h-40" />
         </div>
       </div>
+
+      {/* Image Box with dynamic images based on activeCard */}
       <div
         style={{ background: backgroundGradient }}
         className={cn(
           "hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden",
           contentClassName
         )}>
-        {content[activeCard].content ?? null}
+        {content[activeCard]?.imageSrc && (
+          <img
+            src={content[activeCard].imageSrc}  // Standard <img> tag
+            alt={content[activeCard].title}
+            className="h-full w-full object-cover"
+          />
+        )}
       </div>
     </motion.div>)
   );
