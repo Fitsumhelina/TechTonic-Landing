@@ -45,8 +45,8 @@ function Counter() {
     if (isVisible) {
       animateValue(0, 300, 800, setStudents);
       animateValue(0, 4, 100, setHackathons);
-      animateValue(0, 10, 2000, setCoreteam);
-      animateValue(0, 1, 2000, setExperiance);
+      animateValue(0, 20, 2000, setCoreteam);
+      animateValue(0, 1, 10, setExperiance);
     }
   }, [isVisible]);
 
@@ -55,22 +55,22 @@ function Counter() {
       <h2>Our Community Have </h2>
       <div className="counter-container">
         <div className="counter-item">
-          <div className="icon"><img src="https://cdn-icons-png.flaticon.com/128/17005/17005609.png" alt="" /></div>
+          <div className="icon"><img src="https://cdn-icons-png.flaticon.com/128/17643/17643595.png" alt="" /></div>
           <h3>{students}+</h3>
           <p>Students</p>
         </div>
         <div className="counter-item">
-          <div className="icon"><img src="" alt="" /></div>
+          <div className="icon"><img src="https://cdn-icons-png.flaticon.com/128/17872/17872699.png" alt="" /></div>
           <h3>{hackathons}+</h3>
           <p>Hackathons</p>
         </div>
         <div className="counter-item">
-          <div className="icon">👍</div>
+          <div className="icon"><img src="https://cdn-icons-png.flaticon.com/128/10691/10691841.png" alt="" /></div>
           <h3>{coreteam}+</h3>
           <p>Core Teams</p>
         </div>
         <div className="counter-item">
-          <div className="icon">✔️</div>
+          <div className="icon"><img src="https://cdn-icons-png.flaticon.com/128/3652/3652191.png" alt="" /></div>
           <h3>{experiance}+</h3>
           <p>Years Experiance </p>
         </div>

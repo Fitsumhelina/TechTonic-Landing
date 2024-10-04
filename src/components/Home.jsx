@@ -1,7 +1,7 @@
 import React from 'react';
 import '../scss/Home.scss';
 import { FlipWords } from "./ui/flip-words";
-import video from './../../public/assets/video.mp4';
+import video from './../../public/assets/video2.mp4';
 
 function Home() {
   const words = [" Tribe ", " Community ", " Tech Leader ", " Modern "];
