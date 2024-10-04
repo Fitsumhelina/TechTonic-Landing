@@ -1,0 +1,41 @@
+.counter-section {
+    padding: 50px;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    text-align: center;
+    
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #ffffff;
+    }
+  
+    .counter-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+  
+      .counter-item {
+        flex: 1 1 25%;
+        margin: 10px;
+        text-align: center;
+  
+        .icon {
+          font-size: 2rem;
+          margin-bottom: 10px;
+        }
+  
+        h3 {
+          font-size: 2rem;
+          color: #00C2CB; // Icon color for the number
+        }
+  
+        p {
+          font-size: 1.2rem;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+  
