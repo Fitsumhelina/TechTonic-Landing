@@ -9,9 +9,9 @@ import React from "react";
 import { ImagesSlider } from "./ui/images-slider";
 function Home() {
   const images = [
-    "https://images.unsplash.com/photo-1485433592409-9018e83a1f0d?q=80&w=1814&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1483982258113-b72862e6cff6?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1482189349482-3defd547e0e9?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://media.licdn.com/dms/image/v2/D4E22AQGQR5U9MekakQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1703749819916?e=1730937600&v=beta&t=XX9Eg7M0aSYHxOGuRI24whY-UVYEGjDmhktBH5JHUUw",
+    "https://media.licdn.com/dms/image/v2/D4E22AQFcaaWl2qchsA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1709655117385?e=1730937600&v=beta&t=AR_JjhKJaZ8P-fzYyR3zmF2yQKse4vcWzo-3q0w1GlI",
+    "https://media.licdn.com/dms/image/v2/D4E22AQEWXz-DPdQpTA/feedshare-shrink_1280/feedshare-shrink_1280/0/1709655113033?e=1730937600&v=beta&t=miJAE2GIukKfARS5ja4Ll-JANP20iGw77f2tI4ayvnE",
   ];
 
   return (
