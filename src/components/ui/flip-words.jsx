@@ -1,17 +1,14 @@
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+
+// Update the utility class name function or adjust the import
 import { cn } from "./../lib/utils";
 
-export const FlipWords = ({
-  words,
-  duration = 3000,
-  className
-}) => {
+export const FlipWords = ({ words, duration = 3000, className }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [isAnimating, setIsAnimating] = useState(false);
 
-  // thanks for the fix Julian - https://github.com/Julian-AT
   const startAnimation = useCallback(() => {
     const word = words[words.indexOf(currentWord) + 1] || words[0];
     setCurrentWord(word);
@@ -26,10 +23,11 @@ export const FlipWords = ({
   }, [isAnimating, duration, startAnimation]);
 
   return (
-    (<AnimatePresence
+    <AnimatePresence
       onExitComplete={() => {
         setIsAnimating(false);
-      }}>
+      }}
+    >
       <motion.div
         initial={{
           opacity: 0,
@@ -52,12 +50,9 @@ export const FlipWords = ({
           scale: 2,
           position: "absolute",
         }}
-        className={cn(
-          "z-10 inline-block relative text-left text-neutral-900 dark:text-neutral-100 px-2",
-          className
-        )}
-        key={currentWord}>
-        {/* edit suggested by Sajal: https://x.com/DewanganSajal */}
+        className={cn("flip-word-container", className)} // Add a custom class for better control
+        key={currentWord}
+      >
         {currentWord.split(" ").map((word, wordIndex) => (
           <motion.span
             key={word + wordIndex}
@@ -67,7 +62,8 @@ export const FlipWords = ({
               delay: wordIndex * 0.3,
               duration: 0.3,
             }}
-            className="inline-block whitespace-nowrap">
+            className="inline-block whitespace-nowrap flip-word"
+          >
             {word.split("").map((letter, letterIndex) => (
               <motion.span
                 key={word + letterIndex}
@@ -77,7 +73,8 @@ export const FlipWords = ({
                   delay: wordIndex * 0.3 + letterIndex * 0.05,
                   duration: 0.2,
                 }}
-                className="inline-block">
+                className="inline-block flip-letter"
+              >
                 {letter}
               </motion.span>
             ))}
@@ -85,6 +82,6 @@ export const FlipWords = ({
           </motion.span>
         ))}
       </motion.div>
-    </AnimatePresence>)
+    </AnimatePresence>
   );
 };

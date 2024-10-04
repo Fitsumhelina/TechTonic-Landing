@@ -1,19 +1,25 @@
 import React from 'react';
 import '../scss/Home.scss';
 import { FlipWords } from "./ui/flip-words";
- 
+import video from './../../public/assets/video.mp4';
+
 function Home() {
-  const words = ["better", "cute", "beautiful", "modern"];
+  const words = [" Tribe ", " Community ", " Tech Leader ", " Modern "];
 
   return (
     <>
-    <div className="home">
-      <div className="text">
-      <h1>Welcome To TechTonic </h1>
-      
-      <h2>WE are<FlipWords words={words} /> </h2>
+      <div className="home">
+      <video autoPlay  muted playsInline className="background-video">
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        <div className="text">
+          <h1>Welcome To TechTonic </h1>
+          <h2>
+            We Are <span className="flip-words"><FlipWords words={words} /></span>
+          </h2>
+        </div>
       </div>
-    </div>
     </>
   )
 }
