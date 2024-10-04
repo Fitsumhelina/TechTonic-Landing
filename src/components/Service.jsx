@@ -1,10 +1,12 @@
-import { HoverEffect } from "../ui/card-hover-effect";
+// Import React and other necessary components
+import React from 'react';
+import { HoverEffect } from "./ui/card-hover-effect"; // Ensure this path is correct
 
 export function Service() {
   return (
-    (<div className="max-w-5xl mx-auto px-8">
+    <div className="max-w-5xl mx-auto px-8">
       <HoverEffect items={projects} />
-    </div>)
+    </div>
   );
 }
 
