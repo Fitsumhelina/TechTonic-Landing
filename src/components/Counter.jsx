@@ -17,10 +17,10 @@ const animateValue = (start, end, duration, setCounter) => {
 
 function Counter() {
   const [isVisible, setIsVisible] = useState(false);
-  const [downloads, setDownloads] = useState(0);
-  const [awards, setAwards] = useState(0);
-  const [likes, setLikes] = useState(0);
-  const [recommended, setRecommended] = useState(0);
+  const [students, setStudents] = useState(0);
+  const [hackathons, setHackathons] = useState(0);
+  const [coreteam, setCoreteam] = useState(0);
+  const [experiance, setExperiance] = useState(0);
 
   const counterRef = useRef(null);
 
@@ -43,36 +43,36 @@ function Counter() {
   // Trigger the counters once the section is visible
   useEffect(() => {
     if (isVisible) {
-      animateValue(0, 1590, 2000, setDownloads);
-      animateValue(0, 3500, 2000, setAwards);
-      animateValue(0, 1199, 2000, setLikes);
-      animateValue(0, 2200, 2000, setRecommended);
+      animateValue(0, 300, 800, setStudents);
+      animateValue(0, 4, 100, setHackathons);
+      animateValue(0, 10, 2000, setCoreteam);
+      animateValue(0, 1, 2000, setExperiance);
     }
   }, [isVisible]);
 
   return (
     <div className="counter-section" ref={counterRef}>
-      <h2>We Never Stop Improving</h2>
+      <h2>Our Community Have </h2>
       <div className="counter-container">
         <div className="counter-item">
-          <div className="icon">⬇️</div>
-          <h3>{downloads}+</h3>
-          <p>DOWNLOAD</p>
+          <div className="icon"><img src="https://cdn-icons-png.flaticon.com/128/17005/17005609.png" alt="" /></div>
+          <h3>{students}+</h3>
+          <p>Students</p>
         </div>
         <div className="counter-item">
-          <div className="icon">🏆</div>
-          <h3>{awards}+</h3>
-          <p>AWARDS</p>
+          <div className="icon"><img src="" alt="" /></div>
+          <h3>{hackathons}+</h3>
+          <p>Hackathons</p>
         </div>
         <div className="counter-item">
           <div className="icon">👍</div>
-          <h3>{likes}+</h3>
-          <p>LIKE</p>
+          <h3>{coreteam}+</h3>
+          <p>Core Teams</p>
         </div>
         <div className="counter-item">
           <div className="icon">✔️</div>
-          <h3>{recommended}+</h3>
-          <p>RECOMMENDED</p>
+          <h3>{experiance}+</h3>
+          <p>Years Experiance </p>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 .counter-section {
     padding: 50px;
-    background-color: #1f1f1f;
+    // background-color: #1f1f1f;
     color: #ffffff;
     text-align: center;
     
@@ -12,18 +12,24 @@
   
     .counter-container {
       display: flex;
-      justify-content: space-around;
+      justify-content: center;
       align-items: center;
+      gap: 8rem;
       flex-wrap: wrap;
   
       .counter-item {
-        flex: 1 1 25%;
         margin: 10px;
         text-align: center;
   
         .icon {
           font-size: 2rem;
           margin-bottom: 10px;
+
+          img{
+            height: 70px;
+            width: fit-content;
+
+          }
         }
   
         h3 {
