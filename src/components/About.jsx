@@ -32,7 +32,7 @@ const content = [
 
 function About() {
   return (
-    <div className="p-10 bg-white font-sans text-white"> {/* Black background with custom font */}
+    <div className="p-10 bg-white font-sans text-white"> 
       <StickyScroll content={content} />
     </div>
   );
