@@ -4,12 +4,16 @@
 .home {
   height: 100vh;
   width: 100%;
-  background: var(--gray);
+  background-image: url('./.././../public/assets/background1.png');
+  background-size: cover;
+  background-position: center;
 
   .text {
-    margin-top: 150px;
+    margin: auto;
+    padding: 30vh 0;
     text-align: center;
     font-family: var(--font3);
+    color: var(--white);
     h1 {
       font-size: 5rem;
     }
