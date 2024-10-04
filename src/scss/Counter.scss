@@ -1,13 +1,17 @@
 .counter-section {
+    margin-top: 20px;
     padding: 50px;
-    // background-color: #1f1f1f;
-    color: #ffffff;
+    color:var(--black);
     text-align: center;
+    background: var(--gradient);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     
     h2 {
-      font-size: 2rem;
+      font-family: var(--font3);
+      font-size: 2rem;  
+      text-decoration: underline var(--white) 15px;
       margin-bottom: 30px;
-      color: #ffffff;
+      color: var(--white);
     }
   
     .counter-container {
@@ -35,11 +39,12 @@
   
         h3 {
           font-size: 2rem;
-          color: #00C2CB; // Icon color for the number
+          color:var(--white); // Icon color for the number
         }
   
         p {
-          font-size: 1.2rem;
+          font-family: var(--font31);
+          font-size: 1.5rem;
           margin-top: 5px;
         }
       }
