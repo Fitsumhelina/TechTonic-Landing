@@ -4,15 +4,10 @@ import { useMotionValueEvent, useScroll } from "framer-motion";
 import { motion } from "framer-motion";
 import { cn } from "./../lib/utils";
 
-export const StickyScroll = ({
-  content,
-  contentClassName
-}) => {
+export const StickyScroll = ({ content, contentClassName }) => {
   const [activeCard, setActiveCard] = React.useState(0);
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
-    // Uncomment line 22 and comment line 23 if you don't want the overflow container and want to have it change on the entire page scroll
-    // target: ref
     container: ref,
     offset: ["start start", "end start"],
   });
@@ -32,7 +27,6 @@ export const StickyScroll = ({
 
   const backgroundColors = [
     "var(--slate-900)",
-    // "var(--black)",
     "var(--neutral-900)",
   ];
 
@@ -49,15 +43,15 @@ export const StickyScroll = ({
   }, [activeCard]);
 
   return (
-    (<motion.div
+    <motion.div
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
       className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10"
       ref={ref}>
-      <div className="div relative flex items-start px-4">
-        {/* Content section with white background and black text */}
-        <div className="max-w-2xl bg-white p-6 rounded-md shadow-lg">
+      <div className="relative flex items-start px-4">
+        {/* Content section with increased width */}
+        <div className="max-w-4xl bg-white p-6 rounded-md shadow-lg">
           {content.map((item, index) => (
             <div key={item.title + index} className="my-20">
               <motion.h2
@@ -77,7 +71,7 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-lg text-black max-w-sm mt-10">
+                className="text-lg text-black max-w-xl mt-10"> {/* Increased max width */}
                 {item.description}
               </motion.p>
             </div>
@@ -90,7 +84,7 @@ export const StickyScroll = ({
       <div
         style={{ background: backgroundGradient }}
         className={cn(
-          "hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden",
+          "hidden lg:block h-60 w-80 rounded-md bg-white sticky top-10 overflow-hidden z-index-1", // Corrected z-index syntax
           contentClassName
         )}>
         {content[activeCard]?.imageSrc && (
@@ -101,6 +95,6 @@ export const StickyScroll = ({
           />
         )}
       </div>
-    </motion.div>)
+    </motion.div>
   );
 };
