@@ -8,7 +8,10 @@ function Home() {
     <>
     <div className="home">
      <Header/>
-      <h1>welcome</h1>
+     <div className="text">
+      <h1>Welcome To TechTonic </h1>
+      <h2>A vibrant community </h2>
+     </div>
     </div>
     </>
   )
