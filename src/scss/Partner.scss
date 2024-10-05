@@ -1,28 +1,34 @@
-@keyframes scroll-continuous {
+@keyframes scroll-logos {
   0% {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%); // Only move 50% since we have duplicated logos
+    transform: translateX(-50%); // Move -50% since we're duplicating the logos
   }
 }
 
 .partners-container {
   position: relative;
-  width: 100%;
+  width: 90%;
   overflow: hidden;
   background-color: #fff;
-  padding: 20px 0;
+  margin: auto;
+  margin-top: 70px;
 
   .scrolling-logos {
     display: flex;
     align-items: center;
-    width: 200%; // Ensure the width is twice as large (since logos are duplicated)
-    animation: scroll-continuous 20s linear infinite; // Continuous scroll animation
+    animation: scroll-logos 40s linear infinite;
+    transition: animation-play-state 0.3s ease;
+
+    &.paused {
+      animation-play-state: paused; // Pause animation on hover
+    }
 
     .logo {
       flex: 0 0 auto; // Prevent shrinking
-      padding: 0 30px; // Spacing between logos
+      padding: 0 30px; // Add spacing between logos
+
       img {
         height: 60px; // Adjust logo size
         width: auto;

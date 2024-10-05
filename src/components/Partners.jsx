@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./../scss/Partner.scss"; // Import the SASS file
 
 const Partners = () => {
@@ -12,17 +12,34 @@ const Partners = () => {
     { name: "Pinterest", url: "https://via.placeholder.com/100" },
   ];
 
+  const containerRef = useRef(null);
+  const scrollerRef = useRef(null);
+  const [isHovering, setIsHovering] = useState(false);
+
+  useEffect(() => {
+    // Duplicate the logos for seamless scrolling
+    if (scrollerRef.current) {
+      const scrollerContent = Array.from(scrollerRef.current.children);
+      scrollerContent.forEach((item) => {
+        const duplicatedItem = item.cloneNode(true);
+        scrollerRef.current.appendChild(duplicatedItem);
+      });
+    }
+  }, []);
+
   return (
-    <div className="partners-container">
-      <div className="scrolling-logos">
+    <div
+      className="partners-container"
+      onMouseEnter={() => setIsHovering(true)}
+      onMouseLeave={() => setIsHovering(false)}
+      ref={containerRef}
+    >
+      <div
+        className={`scrolling-logos ${isHovering ? 'paused' : ''}`}
+        ref={scrollerRef}
+      >
         {logos.map((logo, index) => (
           <div className="logo" key={index}>
-            <img src={logo.url} alt={logo.name} />
-          </div>
-        ))}
-        {/* Repeat the logos for infinite scrolling */}
-        {logos.map((logo, index) => (
-          <div className="logo" key={index + logos.length}>
             <img src={logo.url} alt={logo.name} />
           </div>
         ))}
