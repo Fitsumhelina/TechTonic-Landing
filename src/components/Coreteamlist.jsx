@@ -6,27 +6,52 @@ const content = [
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-
+    imageUrl:""
   },
   {
-    title: "Card 2",
+    title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
- 
+    imageUrl:""
   },
   {
-    title: "Card 3",
+    title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-
+    imageUrl:""
   },
   {
-    title: "Card 4",
+    title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-
+    imageUrl:""
   },
   {
-    title: "Card 5",
+    title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-
+    imageUrl:""
+  },
+  {
+    title: "Card 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageUrl:""
+  },
+  {
+    title: "Card 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageUrl:""
+  },
+  {
+    title: "Card 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageUrl:""
+  },
+  {
+    title: "Card 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageUrl:""
+  },
+  {
+    title: "Card 1",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageUrl:""
   },
  
 ];
@@ -74,6 +99,7 @@ const Coreteamlist = () => {
         {content.map((item, index) => (
           <div key={index} className="snap-start">
             <Card
+              imageUrl={item.imageUrl}
               title={item.title}
               description={item.description}
               icon1={item.icon1}
