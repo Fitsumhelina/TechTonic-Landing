@@ -7,6 +7,7 @@ import Contactus from './components/Contactus'
 import Footer from './components/Footer'
 import Counter from './components/Counter'
 import Coreteamlist from './components/Coreteamlist'
+import Partners from './components/Partners'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
      <Counter/>
      <About/>
      <Coreteamlist/>
+     <Partners/>
      <Contactus/>
      <Footer/>
     </>

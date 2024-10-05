@@ -1,0 +1,32 @@
+@keyframes scroll-continuous {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%); // Only move 50% since we have duplicated logos
+  }
+}
+
+.partners-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 20px 0;
+
+  .scrolling-logos {
+    display: flex;
+    align-items: center;
+    width: 200%; // Ensure the width is twice as large (since logos are duplicated)
+    animation: scroll-continuous 20s linear infinite; // Continuous scroll animation
+
+    .logo {
+      flex: 0 0 auto; // Prevent shrinking
+      padding: 0 30px; // Spacing between logos
+      img {
+        height: 60px; // Adjust logo size
+        width: auto;
+      }
+    }
+  }
+}

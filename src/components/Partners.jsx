@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.scss"; // Import the SASS file
+import "./../scss/Partner.scss"; // Import the SASS file
 
 const Partners = () => {
   // List of partner logos (you'll replace the URLs with actual paths)
