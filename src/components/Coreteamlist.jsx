@@ -6,42 +6,42 @@ const content = [
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
@@ -102,8 +102,6 @@ const Coreteamlist = () => {
               imageUrl={item.imageUrl}
               title={item.title}
               description={item.description}
-              icon1={item.icon1}
-              icon2={item.icon2}
             />
           </div>
         ))}

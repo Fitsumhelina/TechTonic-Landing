@@ -5,7 +5,9 @@ const Coreteam = ({ title, description, imageUrl }) => {
     <div className="relative group duration-500 cursor-pointer overflow-hidden relative text-gray-50 h-72 w-56 rounded-2xl hover:duration-700 duration-700">
       <div
         className="w-56 h-72 bg-cover bg-center"
-        style={{ backgroundImage: `url(${imageUrl})` }}
+        style={{
+          backgroundImage: `url(${imageUrl ? imageUrl : './../../public/assets/Coreteam.jpeg' })`, // Ternary for fallback image
+        }}
       >
         <div className="flex flex-row justify-between">
           {/* You can add any other content inside this div */}
