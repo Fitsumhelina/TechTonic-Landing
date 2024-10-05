@@ -8,8 +8,8 @@ const Coreteam = ({ title, description }) => {
      
         </div>
       </div>
-      
-      <div className="absolute bg-gray-50 -bottom-24 w-56 p-3 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
+
+      <div className="absolute bg-gray-50 -bottom-24 w-50 p-3 flex flex-col gap-1 group-hover:-bottom-0 group-hover:duration-600 duration-500">
         <span className="text-blue-400 font-bold text-xs">Core Team </span>
         <span className="text-gray-800 font-bold text-3xl">{title}</span>
         <p className="text-neutral-800">{description}</p>

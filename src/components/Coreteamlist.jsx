@@ -6,40 +6,29 @@ const content = [
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon1: "path/to/icon1.svg", 
-    icon2: "path/to/icon2.svg",
+
   },
   {
     title: "Card 2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon1: "path/to/icon1.svg",
-    icon2: "path/to/icon2.svg",
+ 
   },
   {
     title: "Card 3",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon1: "path/to/icon1.svg",
-    icon2: "path/to/icon2.svg",
+
   },
   {
     title: "Card 4",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon1: "path/to/icon1.svg",
-    icon2: "path/to/icon2.svg",
+
   },
   {
     title: "Card 5",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon1: "path/to/icon1.svg",
-    icon2: "path/to/icon2.svg",
+
   },
-  // Add more card objects...
-  {
-    title: "Card 10",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon1: "path/to/icon1.svg",
-    icon2: "path/to/icon2.svg",
-  },
+ 
 ];
 
 const Coreteamlist = () => {
