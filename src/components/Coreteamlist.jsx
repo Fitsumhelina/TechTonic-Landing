@@ -1,11 +1,12 @@
-import React from "react";
+import React, { useRef } from "react";
 import Card from "./Coreteam";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi"; // Using react-icons for arrows
 
 const content = [
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    icon1: "path/to/icon1.svg", // You can use real icons or SVG paths
+    icon1: "path/to/icon1.svg", 
     icon2: "path/to/icon2.svg",
   },
   {
@@ -14,7 +15,25 @@ const content = [
     icon1: "path/to/icon1.svg",
     icon2: "path/to/icon2.svg",
   },
-  // Add 8 more card objects...
+  {
+    title: "Card 3",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon1: "path/to/icon1.svg",
+    icon2: "path/to/icon2.svg",
+  },
+  {
+    title: "Card 4",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon1: "path/to/icon1.svg",
+    icon2: "path/to/icon2.svg",
+  },
+  {
+    title: "Card 5",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon1: "path/to/icon1.svg",
+    icon2: "path/to/icon2.svg",
+  },
+  // Add more card objects...
   {
     title: "Card 10",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -24,17 +43,56 @@ const content = [
 ];
 
 const Coreteamlist = () => {
+  const scrollRef = useRef(null);
+
+  const scrollLeft = () => {
+    scrollRef.current.scrollBy({
+      left: -300, // Adjust scroll distance as per card width
+      behavior: "smooth",
+    });
+  };
+
+  const scrollRight = () => {
+    scrollRef.current.scrollBy({
+      left: 300, // Adjust scroll distance as per card width
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div className="grid grid-cols-2 gap-6 p-10 md:grid-cols-3 lg:grid-cols-5">
-      {content.map((item, index) => (
-        <Card
-          key={index}
-          title={item.title}
-          description={item.description}
-          icon1={item.icon1}
-          icon2={item.icon2}
-        />
-      ))}
+    <div className="relative mr-40 ml-40">
+      {/* Scroll Buttons */}
+      <button
+        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-gray-400 p-2 rounded-full z-10"
+        onClick={scrollLeft}
+      >
+        <FiChevronLeft size={24} />
+      </button>
+
+      <button
+        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-gray-400 p-2 rounded-full z-10"
+        onClick={scrollRight}
+      >
+        <FiChevronRight size={24} />
+      </button>
+
+      {/* Scrollable Cards Container */}
+      <div
+        ref={scrollRef}
+        className="flex overflow-x-scroll space-x-6 p-10 snap-x snap-mandatory scroll-smooth"
+        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }} // Hide scrollbar
+      >
+        {content.map((item, index) => (
+          <div key={index} className="snap-start">
+            <Card
+              title={item.title}
+              description={item.description}
+              icon1={item.icon1}
+              icon2={item.icon2}
+            />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

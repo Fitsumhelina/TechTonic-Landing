@@ -7,7 +7,6 @@ import Contactus from './components/Contactus'
 import Footer from './components/Footer'
 import Counter from './components/Counter'
 import Coreteamlist from './components/Coreteamlist'
-import { Service, Services } from './components/Service'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +17,6 @@ function App() {
      <Home/>
      <Counter/>
      <About/>
-     <Services/> 
      <Coreteamlist/>
      <Contactus/>
      <Footer/>
