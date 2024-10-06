@@ -2,9 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import "./../scss/Partner.scss"; // Import the SASS file
 
 const Partners = () => {
-  // List of partner logos (you'll replace the URLs with actual paths)
   const logos = [
-    { name: "Square", url: "https://via.placeholder.com/100" },
+    { name: "yabsira", url: "https://avatars.githubusercontent.com/u/166545362?v=4" },
     { name: "Evernote", url: "https://via.placeholder.com/100" },
     { name: "Foursquare", url: "https://via.placeholder.com/100" },
     { name: "The Guardian", url: "https://via.placeholder.com/100" },
@@ -35,7 +34,7 @@ const Partners = () => {
       ref={containerRef}
     >
       <div
-        className={`scrolling-logos ${isHovering ? 'paused' : ''}`}
+        className={`scrolling-logos ${isHovering ? "paused" : ""}`}
         ref={scrollerRef}
       >
         {logos.map((logo, index) => (
