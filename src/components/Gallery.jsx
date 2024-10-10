@@ -1,6 +1,6 @@
 // WorkSection.jsx
 import React from 'react';
-import './WorkSection.scss'; // Import your SCSS file here
+import './../scss/Galler.scss'; // Import your SCSS file here
 
 const Gallery = () => {
   const Images = [
