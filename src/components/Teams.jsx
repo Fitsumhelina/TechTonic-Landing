@@ -1,76 +1,21 @@
 import React, { useRef } from "react";
-import Card from "./Team"; // Ensure this points to your Card component
+import Team from "./Team"; // Ensure this points to your Team component
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi"; // Using react-icons for arrows
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'; // Importing icons
 
 const content = [
   {
-    title: "John Doe",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Card 1",
+    role: "Developer",
     imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    role: "Fullstack Developer",
     socialLinks: [
-      { platform: "facebook", url: "#" },
-      { platform: "github", url: "#" },
-      { platform: "linkedin", url: "#" },
-    ],
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaFacebook /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaTwitter /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
   },
-  {
-    title: "Jane Smith",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    role: "Frontend Developer",
-    socialLinks: [
-      { platform: "facebook", url: "#" },
-      { platform: "github", url: "#" },
-      { platform: "linkedin", url: "#" },
-    ],
-  },
-  {
-    title: "Alice Johnson",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    role: "Backend Developer",
-    socialLinks: [
-      { platform: "facebook", url: "#" },
-      { platform: "github", url: "#" },
-      { platform: "linkedin", url: "#" },
-    ],
-  },
-  {
-    title: "Bob Brown",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    role: "DevOps Engineer",
-    socialLinks: [
-      { platform: "facebook", url: "#" },
-      { platform: "github", url: "#" },
-      { platform: "linkedin", url: "#" },
-    ],
-  },
-  {
-    title: "Chris Green",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    role: "Software Engineer",
-    socialLinks: [
-      { platform: "facebook", url: "#" },
-      { platform: "github", url: "#" },
-      { platform: "linkedin", url: "#" },
-    ],
-  },
-  {
-    title: "Diana Prince",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    role: "Data Scientist",
-    socialLinks: [
-      { platform: "facebook", url: "#" },
-      { platform: "github", url: "#" },
-      { platform: "linkedin", url: "#" },
-    ],
-  },
+  // Add more team members as needed...
 ];
-
 const Teams = () => {
   const scrollRef = useRef(null);
 
@@ -116,10 +61,9 @@ const Teams = () => {
         >
           {content.map((item, index) => (
             <div key={index} className="snap-start">
-              <Card
+              <Team
                 imageUrl={item.imageUrl}
                 title={item.title}
-                description={item.description}
                 role={item.role}
                 socialLinks={item.socialLinks}
               />
