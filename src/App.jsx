@@ -9,6 +9,7 @@ import Counter from './components/Counter'
 import Coreteamlist from './components/Coreteamlist'
 import Partners from './components/Partners'
 import Service from './components/Service'
+import Teams from './components/Teams'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,7 +21,8 @@ function App() {
      <Counter/>
      <Service/>
      <About/>
-     <Coreteamlist/>
+     {/* <Coreteamlist/> */}
+     <Teams/>
      <Contactus/>
      <Footer/>
     </>
