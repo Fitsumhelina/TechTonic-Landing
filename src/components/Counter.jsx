@@ -72,7 +72,7 @@ function Counter() {
         <div className="counter-item">
           <div className="icon"><img src="https://cdn-icons-png.flaticon.com/128/3652/3652191.png" alt="" /></div>
           <h3>{experiance}+</h3>
-          <p>Years Experiance </p>
+          <p>Experiance</p>
         </div>
       </div>
     </div>

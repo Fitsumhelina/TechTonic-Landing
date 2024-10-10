@@ -3,12 +3,7 @@ import "./../scss/Partner.scss"; // Import the SASS file
 
 const Partners = () => {
   const logos = [
-    { name: "yabsira", url: "https://avatars.githubusercontent.com/u/166545362?v=4" },
-    { name: "Evernote", url: "https://via.placeholder.com/100" },
-    { name: "Foursquare", url: "https://via.placeholder.com/100" },
-    { name: "The Guardian", url: "https://via.placeholder.com/100" },
-    { name: "Shopify", url: "https://via.placeholder.com/100" },
-    { name: "Pinterest", url: "https://via.placeholder.com/100" },
+    { name: "yabsira", url: "https://avatars.githubusercontent.com/u/166545362?v=4" }
   ];
 
   const containerRef = useRef(null);

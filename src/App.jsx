@@ -19,7 +19,7 @@ function App() {
      <Counter/>
      <About/>
      <Coreteamlist/>
-     <Partners/>
+     
      <Contactus/>
      <Footer/>
     </>
