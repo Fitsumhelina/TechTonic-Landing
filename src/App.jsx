@@ -18,9 +18,9 @@ function App() {
      <Header/>
      <Home/>
      <Counter/>
+     <Service/>
      <About/>
      <Coreteamlist/>
-     <Service/>
      <Contactus/>
      <Footer/>
     </>
