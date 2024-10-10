@@ -16,6 +16,9 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        customBlue: '#0097b2', // Define your custom color here
+      },
       animation: {
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",
