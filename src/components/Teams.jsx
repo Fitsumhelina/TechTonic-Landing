@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Team from "./Team"; // Ensure this points to your Team component
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi"; // Using react-icons for arrows
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa'; // Importing icons
-
 const content = [
   {
     title: "Card 1",
@@ -10,11 +9,60 @@ const content = [
     imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaFacebook /> },
-      { platform: 'twitter', url: 'https://twitter.com', icon: <FaTwitter /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
       { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
     ]
   },
-  // Add more team members as needed...
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaFacebook /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaFacebook /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaFacebook /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaFacebook /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaFacebook /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
 ];
 const Teams = () => {
   const scrollRef = useRef(null);

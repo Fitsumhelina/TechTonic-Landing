@@ -6,13 +6,11 @@ import About from './components/About'
 import Contactus from './components/Contactus'
 import Footer from './components/Footer'
 import Counter from './components/Counter'
-import Coreteamlist from './components/Coreteamlist'
-import Partners from './components/Partners'
+// import Partners from './components/Partners'
 import Service from './components/Service'
 import Teams from './components/Teams'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -21,7 +19,6 @@ function App() {
      <Counter/>
      <Service/>
      <About/>
-     {/* <Coreteamlist/> */}
      <Teams/>
      <Contactus/>
      <Footer/>
