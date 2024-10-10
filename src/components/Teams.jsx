@@ -54,6 +54,50 @@ const content = [
     ]
   },
   
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+  
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+  
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+  
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+  
 ];
 const Teams = () => {
   const scrollRef = useRef(null);
@@ -76,7 +120,7 @@ const Teams = () => {
     <>
       <h1 className="text-center text-customBlue text-3xl font-bold mb-2 mt-12">Meet The Team</h1>
       
-      <div className="relative mr-40 ml-40">
+      <div className="relative mr-35 ml-35">
         {/* Scroll Buttons */}
         <button
           className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-400 hover:bg-customBlue p-3 rounded-full z-10"

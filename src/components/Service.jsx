@@ -54,7 +54,7 @@ function Service() {
   return (
 
     <div>
-      <h1 className="text-center text-3xl font-bold mb-2 mt-12">Our Services</h1>
+      <h1 className="text-center text-3xl font-bold mb-2 mt-12 text-customBlue">Our Services</h1>
       <CardHoverEffectDemo />
     </div>
   );
