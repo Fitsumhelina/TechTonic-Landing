@@ -1,0 +1,25 @@
+/* WorkSection.scss */
+
+/*============================work====================*/
+.row.no-gutters [class*=col-] {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .img-wrapper {
+    overflow: hidden;
+  }
+  
+  .img-wrapper img {
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  }
+  
+  .img-wrapper img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    cursor: zoom-in;
+  }
+  
