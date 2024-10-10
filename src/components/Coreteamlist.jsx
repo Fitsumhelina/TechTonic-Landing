@@ -6,54 +6,54 @@ const content = [
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:"https://avatars.githubusercontent.com/u/151903384?v=4"
+    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4"
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl: ""
   },
   {
     title: "Card 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    imageUrl:""
+    imageUrl: ""
   },
- 
+
 ];
 
 const Coreteamlist = () => {
@@ -74,39 +74,43 @@ const Coreteamlist = () => {
   };
 
   return (
-    <div className="relative mr-40 ml-40">
-      {/* Scroll Buttons */}
-      <button
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-gray-400 p-2 rounded-full z-10"
-        onClick={scrollLeft}
-      >
-        <FiChevronLeft size={24} />
-      </button>
+    <>
+      <h1 className="text-center text-3xl font-bold mb-2 mt-12">Meet The Team</h1>
+      
+      <div className="relative mr-40 ml-40">
+        {/* Scroll Buttons */}
+        <button
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-gray-400 p-2 rounded-full z-10"
+          onClick={scrollLeft}
+        >
+          <FiChevronLeft size={24} />
+        </button>
 
-      <button
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-gray-400 p-2 rounded-full z-10"
-        onClick={scrollRight}
-      >
-        <FiChevronRight size={24} />
-      </button>
+        <button
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-gray-400 p-2 rounded-full z-10"
+          onClick={scrollRight}
+        >
+          <FiChevronRight size={24} />
+        </button>
 
-      {/* Scrollable Cards Container */}
-      <div
-        ref={scrollRef}
-        className="flex overflow-x-scroll space-x-6 p-10 snap-x snap-mandatory scroll-smooth"
-        style={{ scrollbarWidth: "none", msOverflowStyle: "none" }} // Hide scrollbar
-      >
-        {content.map((item, index) => (
-          <div key={index} className="snap-start">
-            <Card
-              imageUrl={item.imageUrl}
-              title={item.title}
-              description={item.description}
-            />
-          </div>
-        ))}
+        {/* Scrollable Cards Container */}
+        <div
+          ref={scrollRef}
+          className="flex overflow-x-scroll space-x-6 p-10 snap-x snap-mandatory scroll-smooth"
+          style={{ scrollbarWidth: "none", msOverflowStyle: "none" }} // Hide scrollbar
+        >
+          {content.map((item, index) => (
+            <div key={index} className="snap-start">
+              <Card
+                imageUrl={item.imageUrl}
+                title={item.title}
+                description={item.description}
+              />
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
