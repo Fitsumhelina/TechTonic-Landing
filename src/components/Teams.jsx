@@ -74,19 +74,19 @@ const Teams = () => {
 
   return (
     <>
-      <h1 className="text-center text-3xl font-bold mb-2 mt-12">Meet The Team</h1>
+      <h1 className="text-center text-customBlue text-3xl font-bold mb-2 mt-12">Meet The Team</h1>
       
       <div className="relative mr-40 ml-40">
         {/* Scroll Buttons */}
         <button
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-gray-400 p-2 rounded-full z-10"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-customBlue p-3 rounded-full z-10"
           onClick={scrollLeft}
         >
           <FiChevronLeft size={24} />
         </button>
 
         <button
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-gray-400 p-2 rounded-full z-10"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-customBlue p-3 rounded-full z-10"
           onClick={scrollRight}
         >
           <FiChevronRight size={24} />
