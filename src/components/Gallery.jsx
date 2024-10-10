@@ -1,29 +1,30 @@
 // WorkSection.jsx
 import React from 'react';
-import './../scss/Galler.scss'; // Import your SCSS file here
+import './../scss/Gallery.scss'; // Import your SCSS file here
 
 const Gallery = () => {
   const Images = [
-    { src: 'img/work/1.jpg', alt: 'work 1' },
-    { src: 'img/work/2.jpg', alt: 'work 2' },
-    { src: 'img/work/3.jpg', alt: 'work 3' },
-    { src: 'img/work/4.jpg', alt: 'work 4' },
-    { src: 'img/work/5.jpg', alt: 'work 5' },
-    { src: 'img/work/6.jpg', alt: 'work 6' },
-    { src: 'img/work/7.jpg', alt: 'work 7' },
-    { src: 'img/work/8.jpg', alt: 'work 8' },
+    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
+    { src: 'https://media.licdn.com/dms/image/v2/D4E22AQHAPxRF7YA9cA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1728424975693?e=1731542400&v=beta&t=RAVt-iQ1rLCuZnzAwUYkp229ftVsALETImPtDaALdKQ', alt: 'work 1' },
+    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
+    { src: 'https://media.licdn.com/dms/image/v2/D4E22AQHAPxRF7YA9cA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1728424975693?e=1731542400&v=beta&t=RAVt-iQ1rLCuZnzAwUYkp229ftVsALETImPtDaALdKQ', alt: 'work 1' },
+    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
+    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
+    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
+    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
+
   ];
 
   return (
-    <section id="work">
+    <section className="Gallery">
       <div className="content-box">
-        <div className="content-title wow animated fadeInDown" data-wow-duration="1s" data-wow-delay=".5s">
+        <div className="content-title" data-wow-duration="1s" data-wow-delay=".5s">
           <h3>Gallery</h3>
           <div className="content-title-underline"></div>
         </div>
 
         <div className="container-fluid">
-          <div className="row no-gutters wow animated fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+          <div className="images" data-wow-duration="1s" data-wow-delay=".5s">
             {Images.map((image, index) => (
               <div className="col-md-3 col-sm-4" key={index}>
                 <div className="img-wrapper">

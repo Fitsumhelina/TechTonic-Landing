@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Counter from './components/Counter'
 import Service from './components/Service'
 import Teams from './components/Teams'
+import Gallery from './components/Gallery'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
      <Counter/>
      <Service/>
      <About/>
+     <Gallery/>
      <Teams/>
      <Footer/>
     </>

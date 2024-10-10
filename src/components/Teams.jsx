@@ -79,14 +79,14 @@ const Teams = () => {
       <div className="relative mr-40 ml-40">
         {/* Scroll Buttons */}
         <button
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-customBlue p-3 rounded-full z-10"
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-400 hover:bg-customBlue p-3 rounded-full z-10"
           onClick={scrollLeft}
         >
           <FiChevronLeft size={24} />
         </button>
 
         <button
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-300 hover:bg-customBlue p-3 rounded-full z-10"
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-400 hover:bg-customBlue p-3 rounded-full z-10"
           onClick={scrollRight}
         >
           <FiChevronRight size={24} />

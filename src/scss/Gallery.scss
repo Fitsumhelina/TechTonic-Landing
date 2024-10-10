@@ -1,25 +1,76 @@
-/* WorkSection.scss */
+// Gallery.scss
 
-/*============================work====================*/
-.row.no-gutters [class*=col-] {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+.Gallery {
+  padding: 50px 0;
+  background-color: #f8f9fa; // Background color for the section
   
-  .img-wrapper {
-    overflow: hidden;
+  .content-box {
+    text-align: center;
+    margin-bottom: 40px;
+
+    .content-title {
+      margin-bottom: 20px;
+
+      h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        color:var(--color2);
+        margin-bottom: 40px;
+      }
+
+    
+    }
   }
-  
-  .img-wrapper img {
-    -webkit-transition: -webkit-transform 0.5s ease;
-    transition: -webkit-transform 0.5s ease;
-    transition: transform 0.5s ease;
-    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+
+  .container-fluid {
+    padding: 0 15px;
+
+    .images {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); // 4 images per row
+      gap: 10px; // Space between images
+      justify-items: center; // Center the images within the grid
+
+      .img-wrapper {
+        overflow: hidden; // Ensures the image doesn't overflow out of its container
+        border-radius: 8px; // Optional: Add rounded corners to images
+        // box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); // Subtle shadow around images
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; // Smooth hover effects
+        width: 100%; // Make the image take full width of its container
+
+        a {
+          display: block;
+
+          img {
+            width: 100%;
+            height: 350px; // Maintain height consistency
+            object-fit: cover; // Ensure the image covers the entire space while maintaining aspect ratio
+            transition: transform 0.3s ease-in-out;
+          }
+        }
+
+        &:hover {
+          transform: translateY(-10px); // Move the image slightly upwards on hover
+          box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); // Intensify shadow on hover
+
+          img {
+            transform: scale(1.3); // Slight zoom on hover
+          }
+        }
+      }
+    }
   }
-  
-  .img-wrapper img:hover {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
-    cursor: zoom-in;
+
+  // Responsive Design
+  @media (max-width: 992px) {
+    .images {
+      grid-template-columns: repeat(2, 1fr); // 2 images per row on medium screens
+    }
   }
-  
+
+  @media (max-width: 576px) {
+    .images {
+      grid-template-columns: 1fr; // 1 image per row on small screens
+    }
+  }
+}
