@@ -1,83 +1,88 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #3e3e3e;
-    color: #fff;
-    padding: 20px 50px;
-  
-    .footer-left,
-    .footer-right {
-      width: 45%;
-    }
-  
-    h2 {
-      font-size: 24px;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-  
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.751);
+  color: #fff;
+  padding: 20px 50px;
+
+  .footer-left,
+  .footer-right {
+    width: 45%;
+  }
+
+  h2 {
+    color: var(--color2);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .footer-info {
+    margin-top: 20px;
+
     p {
-      font-size: 14px;
-      line-height: 1.6;
+      margin: 5px 0;
     }
-  
-    .footer-info {
-      margin-top: 20px;
-  
-      p {
-        margin: 5px 0;
+    
+    p strong{
+        color: var(--color2);
+      }
+  }
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+
+    a {
+      color: #fff;
+      font-size: 20px;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #ccc;
       }
     }
-  
-    .social-icons {
+  }
+
+  .footer-right {
+    form {
       display: flex;
-      gap: 10px;
-      margin-top: 20px;
-  
-      a {
+      flex-direction: column;
+
+      input,
+      textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        background: #555;
+        border: none;
+        outline: none;
         color: #fff;
-        font-size: 20px;
-        transition: color 0.3s;
-  
-        &:hover {
-          color: #ccc;
-        }
       }
-    }
-  
-    .footer-right {
-      form {
-        display: flex;
-        flex-direction: column;
-        
-        input, textarea {
-          margin-bottom: 10px;
-          padding: 10px;
-          background: #555;
-          border: none;
-          outline: none;
-          color: #fff;
-        }
-  
-        textarea {
-          resize: none;
-          height: 100px;
-        }
-  
-        button {
-          padding: 10px;
-          background-color: transparent;
-          color: #fff;
-          border: 2px solid #fff;
-          cursor: pointer;
-          transition: background 0.3s;
-  
-          &:hover {
-            background-color: #fff;
-            color: #3e3e3e;
-          }
+
+      textarea {
+        resize: none;
+        height: 100px;
+      }
+
+      button {
+        padding: 10px;
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #fff;
+        cursor: pointer;
+        transition: background 0.3s;
+
+        &:hover {
+          background-color: #fff;
+          color: var(--color2);
         }
       }
     }
   }
-  
+}

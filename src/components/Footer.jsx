@@ -1,19 +1,19 @@
 import React from 'react';
-import './Footer.scss';
+import './../scss/Footer.scss';
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <h2>DOT CLASS</h2>
+        <h2>TechTonic Tribe </h2>
         <p>
-          We believe in <strong>Simple, Clean & Modern</strong> Design Standard
-          with Responsive Approach. Browse the amazing work of our company.
+          We believe in <strong>modern, Educated & Inforemed </strong> Socity, Lives 
+          with The Updated Technology. Support the amazing work of our company.
         </p>
         <div className="footer-info">
           <p><strong>Headquarters:</strong></p>
-          <p>F-26, Block A, Malviya Nagar</p>
-          <p>Jaipur, Rajasthan</p>
+          <p>Debre Berhan Universty </p>
+          <p>Ethiopia, Debre Berhan</p>
           <p><strong>Phone:</strong> (91) 9660887276</p>
           <p><strong>Email:</strong> dotclass8075@gmail.com</p>
         </div>
