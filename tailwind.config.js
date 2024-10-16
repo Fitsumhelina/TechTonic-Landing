@@ -17,7 +17,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        customBlue: '#0097b2', // Define your custom color here
+        customBlue: '#00aaff', // Define your custom color here
+        color1:'#006992'
       },
       animation: {
         first: "moveVertical 30s ease infinite",

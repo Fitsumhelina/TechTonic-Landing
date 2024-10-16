@@ -120,7 +120,7 @@ const Teams = () => {
     <>
       <h1 className="text-center text-customBlue text-3xl font-bold mb-2 mt-12">Meet The Team</h1>
       
-      <div className="relative mr-35 ml-35">
+      <div className="relative mr-30 ml-30">
         {/* Scroll Buttons */}
         <button
           className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-400 hover:bg-customBlue p-3 rounded-full z-10"
