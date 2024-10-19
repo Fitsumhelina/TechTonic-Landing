@@ -36,7 +36,7 @@ const content = [
   {
     title: "Card 1",
     role: "Developer",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    imageUrl: "https://drive.google.com/file/d/1Ve8yqnZF2Aa04XTKcD0DhECpr4AsLmlg/view?usp=drive_link",
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
       { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
