@@ -25,13 +25,19 @@
   .clients-logos {
     display: flex;
     transition: transform 0.3s ease;
-    width: calc(100% * 6); /* Adjust based on the number of logos */
+  }
+  
+  .clients-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; /* Each page takes 100% width */
   }
   
   .client-logo {
     flex: 1;
     text-align: center;
-    cursor: pointer;
+    padding: 10px;
   }
   
   .client-logo img {
