@@ -40,7 +40,7 @@
         padding: 0.5rem;
   
         &:hover {
-          color: #00aaff; // hover effect color
+          color: var(--color2); // hover effect color
           transition: color 0.3s ease-in-out;
         }
   

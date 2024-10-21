@@ -36,7 +36,7 @@ const content = [
   {
     title: "Card 1",
     role: "Developer",
-    imageUrl: "https://drive.google.com/file/d/1Ve8yqnZF2Aa04XTKcD0DhECpr4AsLmlg/view?usp=drive_link",
+    imageUrl: "https://drive.google.com/uc?export=view&id=1J9CI3lMtewubwLeJE1S71u60tkU_exxg",
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
       { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },

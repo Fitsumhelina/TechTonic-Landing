@@ -11,8 +11,8 @@ function Header() {
         <div className="two">
         <a href="#">About Us</a>
         <a href="#">Programs</a>
-        <a href="#">Gallery</a>
         <a href="#">Contact US</a>
+        <a href="#">Register</a>
         </div>
     </header>
     </>

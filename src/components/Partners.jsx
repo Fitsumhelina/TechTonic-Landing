@@ -28,7 +28,7 @@ function Partners() {
 
   return (
     <div className="partners-container">
-      <h2 className="title">CLIENTS</h2>
+      <h2 className="title">PARTNERS</h2>
       <div className="underline"></div>
 
       {/* Scrollable container for client logos */}
