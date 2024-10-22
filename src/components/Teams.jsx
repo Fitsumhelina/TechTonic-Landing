@@ -21,8 +21,8 @@ const content = [
     ]
   },
   {
-    title: "Card 1",
-    role: "Developer",
+    title: "Kisanet H/mariyam",
+    role: "Vice President",
     imageUrl: image4,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
@@ -32,8 +32,8 @@ const content = [
   },
  
   {
-    title: "Card 1",
-    role: "Developer",
+    title: "Yeabsira Behailu",
+    role: "Event Organizer",
     imageUrl: image2,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
@@ -42,8 +42,8 @@ const content = [
     ]
   },
   {
-    title: "Card 1",
-    role: "Developer",
+    title: "Tinbite Elias",
+    role: "Education lead",
     imageUrl: image3,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
@@ -51,10 +51,10 @@ const content = [
       { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
     ]
   },
- 
+  
   {
-    title: "Card 1",
-    role: "Developer",
+    title: "Nardos Anteneh",
+    role: "Social Media Manager",
     imageUrl: image7,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
