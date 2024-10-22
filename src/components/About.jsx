@@ -5,7 +5,7 @@ import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import pic1 from './../../public/assets/about1.jpeg';
 import pic2 from './../../public/assets/about2.jpeg';
 import pic3 from './../../public/assets/about3.jpeg';
-import pic4 from './../../public/assets/about4.jpeg';
+import pic4 from './../../public/assets/about4.jpg';
 
 const content = [
   {
