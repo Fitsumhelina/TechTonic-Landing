@@ -2,10 +2,11 @@ import React, { useRef } from "react";
 import Team from "./Team"; // Ensure this points to your Team component
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi"; // Using react-icons for arrows
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa'; // Importing icons
+import image1 from './../../public/assets/me.jpg'
 const content = [
   {
-    title: "Card 1",
-    role: "Developer",
+    title: "Fitsum Helina",
+    role: "President",
     imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
