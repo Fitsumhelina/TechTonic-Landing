@@ -84,6 +84,16 @@ const content = [
       { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
     ]
   },
+  {
+    title: "Kalkidan K/mariyam ",
+    role: "Event Coordinator",
+    imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQEfM1ZF1q-4GA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727245514587?e=1735171200&v=beta&t=mgOzFGUaUv7G0GPa7u6uMfN4C7Hw9pl2V3dKFa7ZSqs",
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
  
   
 ];
