@@ -1,5 +1,7 @@
 import React, { useRef, useState } from 'react';
-import './../scss/Partners.scss'; // Import CSS for styling
+import './../scss/Partners.scss'; 
+import logo1 from './../../public/assets/dbu.png'
+import logo2 from './../../public/assets/gcode.jpg'
 
 function Partners() {
   const [activeIndex, setActiveIndex] = useState(0); // Track active page index
@@ -7,14 +9,8 @@ function Partners() {
 
   // Clients data (you can replace logos with actual paths)
   const clients = [
-    { name: 'Square', logo: '/path/to/square-logo.png' },
-    { name: 'Evernote', logo: '/path/to/evernote-logo.png' },
-    { name: 'Foursquare', logo: '/path/to/foursquare-logo.png' },
-    { name: 'The Guardian', logo: '/path/to/guardian-logo.png' },
-    { name: 'Shopify', logo: '/path/to/shopify-logo.png' },
-    { name: 'Pinterest', logo: '/path/to/pinterest-logo.png' },
-    { name: 'Client 7', logo: '/path/to/client7-logo.png' },
-    { name: 'Client 8', logo: '/path/to/client8-logo.png' }
+    { name: 'DBU', logo: logo1 },
+    { name: 'Gcode', logo: logo2},
   ];
 
   const logosPerPage = 4;
