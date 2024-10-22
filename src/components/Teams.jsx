@@ -3,11 +3,17 @@ import Team from "./Team"; // Ensure this points to your Team component
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi"; // Using react-icons for arrows
 import { FaTelegram, FaGithub, FaLinkedin } from 'react-icons/fa'; // Importing icons
 import image1 from './../../public/assets/me.jpg'
+import image2 from './../../public/assets/yab.jpg'
+import image3 from './../../public/assets/tnbi.jpeg'
+import image4 from './../../public/assets/kis.jpg'
+import image5 from './../../public/assets/ts.jpg'
+import image6 from './../../public/assets/beti.jpg'
+import image7 from './../../public/assets/nar.jpeg'
 const content = [
   {
     title: "Fitsum Helina",
     role: "President",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    imageUrl: image1,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
       { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
@@ -17,7 +23,18 @@ const content = [
   {
     title: "Card 1",
     role: "Developer",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    imageUrl: image4,
+    socialLinks: [
+      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
+      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+    ]
+  },
+ 
+  {
+    title: "Card 1",
+    role: "Developer",
+    imageUrl: image2,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
       { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
@@ -27,77 +44,47 @@ const content = [
   {
     title: "Card 1",
     role: "Developer",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    imageUrl: image3,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
       { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
       { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
     ]
   },
+ 
   {
     title: "Card 1",
     role: "Developer",
-    imageUrl: "https://drive.google.com/uc?export=view&id=1J9CI3lMtewubwLeJE1S71u60tkU_exxg",
+    imageUrl: image7,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
       { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
       { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
     ]
   },
+ 
   {
     title: "Card 1",
     role: "Developer",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    imageUrl: image5,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
       { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
       { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
     ]
   },
-  
+ 
   {
     title: "Card 1",
     role: "Developer",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
+    imageUrl: image6,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
       { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
       { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
     ]
   },
-  
-  {
-    title: "Card 1",
-    role: "Developer",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    socialLinks: [
-      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
-      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
-    ]
-  },
-  
-  {
-    title: "Card 1",
-    role: "Developer",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    socialLinks: [
-      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
-      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
-    ]
-  },
-  
-  {
-    title: "Card 1",
-    role: "Developer",
-    imageUrl: "https://avatars.githubusercontent.com/u/151903384?v=4",
-    socialLinks: [
-      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
-      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
-    ]
-  },
+ 
   
 ];
 const Teams = () => {
