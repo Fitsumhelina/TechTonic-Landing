@@ -21,9 +21,10 @@ function Header() {
           <Link to="footer" spy={true} smooth={true} duration={500}>
             Contact Us
           </Link>
-          <Link to="https://forms.gle/KasP6dne9LUzCX7A8" spy={true} smooth={true} duration={500}>
+          <a href="https://forms.gle/KasP6dne9LUzCX7A8" target="_blank" rel="noopener noreferrer">
             Register
-          </Link>
+          </a>
+
         </div>
       </header>
     </>
