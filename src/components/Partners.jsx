@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import './../scss/Partners.scss'; 
 import logo1 from './../../public/assets/dbu.png'
 import logo2 from './../../public/assets/gcode.jpg'
+import logo3 from './../../public/assets/dbudaily.jpg'
 
 function Partners() {
   const [activeIndex, setActiveIndex] = useState(0); // Track active page index
@@ -11,6 +12,7 @@ function Partners() {
   const clients = [
     { name: 'DBU', logo: logo1 },
     { name: 'Gcode', logo: logo2},
+    { name: 'Gcode', logo: logo3},
   ];
 
   const logosPerPage = 4;
