@@ -19,7 +19,7 @@ const Footer = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_yhkebfv', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
+    emailjs.sendForm('service_yhkebfv', 'template_hrv7avi', e.target, 'Q2UM1RdCJVGhG1DA6796V')
       .then((result) => {
         alert('Message sent successfully!');
       }, (error) => {
@@ -41,8 +41,8 @@ const Footer = () => {
           <p><strong>Headquarters:</strong></p>
           <p>Debre Berhan University </p>
           <p>Ethiopia, Debre Berhan</p>
-          <p><strong>Phone:</strong> (91) 9660887276</p>
-          <p><strong>Email:</strong> dotclass8075@gmail.com</p>
+          <p><strong>Phone:</strong> (251) 9660887276</p>
+          <p><strong>Email:</strong> techtonic.inbox@gmail.com</p>
         </div>
         <div className="social-icons">
           <a href="#"><i className="fab fa-facebook"></i></a>
