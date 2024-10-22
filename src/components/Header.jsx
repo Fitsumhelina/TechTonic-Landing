@@ -10,7 +10,6 @@ function Header() {
         </div>
         <div className="two">
         <a href="#">About Us</a>
-        <a href="#">Programs</a>
         <a href="#">Contact US</a>
         <a href="#">Register</a>
         </div>
