@@ -31,13 +31,13 @@
     display: flex;
     justify-content: space-evenly; /* Distributes space evenly between items */
     align-items: center;
-    width: 100%; /* Each page takes 100% width */
+    width: 100%;
   }
   
   .client-logo {
     flex: 1 0 20%; /* Flex-grow: 1, Flex-shrink: 0, Flex-basis: 20% */
     text-align: center;
-    max-width: 100px; /* Maximum width of each logo container */
+    max-width: 90px; /* Maximum width of each logo container */
     padding: 10px;
   }
   
