@@ -1,18 +1,26 @@
 // WorkSection.jsx
 import React from 'react';
-import './../scss/Gallery.scss'; // Import your SCSS file here
+import './../scss/Gallery.scss'; 
+import pic1 from './../../public/assets/pic1.jpg'
+import pic2 from './../../public/assets/pic2.jpg'
+import pic3 from './../../public/assets/pic3.jpg'
+import pic4 from './../../public/assets/pic4.jpg'
+import pic5 from './../../public/assets/pic5.jpg'
+import pic6 from './../../public/assets/pic6.jpg'
+import pic7 from './../../public/assets/pic7.jpg'
+import pic8 from './../../public/assets/pic8.jpg'
 
 const Gallery = () => {
   const Images = [
-    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
-    { src: 'https://media.licdn.com/dms/image/v2/D4E22AQHAPxRF7YA9cA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1728424975693?e=1731542400&v=beta&t=RAVt-iQ1rLCuZnzAwUYkp229ftVsALETImPtDaALdKQ', alt: 'work 1' },
-    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
-    { src: 'https://media.licdn.com/dms/image/v2/D4E22AQHAPxRF7YA9cA/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1728424975693?e=1731542400&v=beta&t=RAVt-iQ1rLCuZnzAwUYkp229ftVsALETImPtDaALdKQ', alt: 'work 1' },
-    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
-    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
-    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
-    { src: 'https://media.licdn.com/dms/image/v2/D4E03AQGBtQpAJuKPVA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727532743470?e=1733961600&v=beta&t=xM-9fkD9WrrBF3_9u8cAmJav46jF9Gg6mRlj-x7O8Mk', alt: 'work 1' },
-
+    { src:pic1 ,alt: 'work 1' },
+    { src:pic2 ,alt: 'work 1' },
+    { src:pic3 ,alt: 'work 1' },
+    { src:pic4 ,alt: 'work 1' },
+    { src:pic5 ,alt: 'work 1' },
+    { src:pic6 ,alt: 'work 1' },
+    { src:pic7 ,alt: 'work 1' },
+    { src:pic8 ,alt: 'work 1' },
+   
   ];
 
   return (
