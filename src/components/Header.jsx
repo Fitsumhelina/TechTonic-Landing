@@ -21,7 +21,7 @@ function Header() {
           <Link to="footer" spy={true} smooth={true} duration={500}>
             Contact Us
           </Link>
-          <Link to="counter" spy={true} smooth={true} duration={500}>
+          <Link to="https://forms.gle/KasP6dne9LUzCX7A8" spy={true} smooth={true} duration={500}>
             Register
           </Link>
         </div>

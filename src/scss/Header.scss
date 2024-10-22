@@ -40,6 +40,7 @@
         padding: 0.5rem;
   
         &:hover {
+          cursor: pointer;
           color: var(--color2); // hover effect color
           transition: color 0.3s ease-in-out;
         }
