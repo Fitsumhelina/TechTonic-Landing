@@ -64,8 +64,8 @@ const content = [
   },
  
   {
-    title: "Card 1",
-    role: "Developer",
+    title: "Fitsum Enunu",
+    role: "Content Creator",
     imageUrl: image5,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
@@ -75,8 +75,8 @@ const content = [
   },
  
   {
-    title: "Card 1",
-    role: "Developer",
+    title: "Betelhem Hiluf ",
+    role: "Membership&Recruit Leader ",
     imageUrl: image6,
     socialLinks: [
       { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
