@@ -9,17 +9,19 @@ import pic5 from './../../public/assets/pic5.jpg'
 import pic6 from './../../public/assets/pic6.jpg'
 import pic7 from './../../public/assets/pic7.jpg'
 import pic8 from './../../public/assets/pic8.jpg'
+import pic9 from './../../public/assets/pic9.jpg'
 
 const Gallery = () => {
   const Images = [
     { src:pic1 ,alt: 'work 1' },
     { src:pic2 ,alt: 'work 1' },
     { src:pic3 ,alt: 'work 1' },
+    { src:pic8 ,alt: 'work 1' },
     { src:pic4 ,alt: 'work 1' },
     { src:pic5 ,alt: 'work 1' },
     { src:pic6 ,alt: 'work 1' },
     { src:pic7 ,alt: 'work 1' },
-    { src:pic8 ,alt: 'work 1' },
+    { src:pic9 ,alt: 'work 1' },
    
   ];
 
