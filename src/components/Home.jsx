@@ -5,7 +5,6 @@ import video from './../../public/assets/video2.mp4';
 
 function Home() {
   const words = [" Tribe ", " Community ", " Tech Leader ", " Modern ", " 100% free ", " Enthusiast "];
-
   return (
     <>
       <div className="home">
