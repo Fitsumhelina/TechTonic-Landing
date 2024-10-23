@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { FaTelegram, FaInstagram, FaLinkedin ,FaTiktok } from 'react-icons/fa'; // Importing icons
 import './../scss/Footer.scss';
 
 const Footer = () => {
@@ -45,10 +46,10 @@ const Footer = () => {
           <p><strong>Email:</strong> techtonic.inbox@gmail.com</p>
         </div>
         <div className="social-icons">
-          <a href="#"><i className="fab fa-facebook"></i></a>
-          <a href="#"><i className="fab fa-twitter"></i></a>
-          <a href="#"><i className="fab fa-google"></i></a>
-          <a href="#"><i className="fab fa-youtube"></i></a>
+          <a href="#"><FaTelegram/></a>
+          <a href="#"><FaInstagram/></a>
+          <a href="#"><FaLinkedin/></a>
+          <a href="#"><FaTiktok/></a>
         </div>
       </div>
       <div className="footer-right">

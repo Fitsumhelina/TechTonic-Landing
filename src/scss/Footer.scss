@@ -4,10 +4,20 @@
   background-color: rgba(0, 0, 0, 0.751);
   color: #fff;
   padding: 20px 50px;
+  
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 20px;
+  }
 
   .footer-left,
   .footer-right {
     width: 45%;
+    
+    @media (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 20px; // Adds space between the sections
+    }
   }
 
   h2 {
@@ -29,9 +39,9 @@
       margin: 5px 0;
     }
     
-    p strong{
-        color: var(--color2);
-      }
+    p strong {
+      color: var(--color2);
+    }
   }
 
   .social-icons {
@@ -83,6 +93,22 @@
           color: var(--color2);
         }
       }
+    }
+  }
+
+  // Media query for small devices (Mobile)
+  @media (max-width: 768px) {
+    .footer-right {
+      width: 100%;
+    }
+
+    .footer-left {
+      width: 100%;
+    }
+
+    .social-icons {
+      justify-content: center;
+      margin-bottom: 20px;
     }
   }
 }
