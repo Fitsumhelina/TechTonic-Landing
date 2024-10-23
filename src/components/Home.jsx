@@ -4,7 +4,7 @@ import { FlipWords } from "./ui/flip-words";
 import video from './../../public/assets/video2.mp4';
 
 function Home() {
-  const words = [" Tribe ", " Community ", " Tech Leader ", " Modern ", "100% free", "Enthusiast"];
+  const words = [" Tribe ", " Community ", " Tech Leader ", " Modern ", " 100% free ", " Enthusiast "];
 
   return (
     <>
