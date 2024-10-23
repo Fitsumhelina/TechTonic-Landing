@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import '../scss/Header.scss';
 
 function Header() {
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
+
   return (
     <>
       <header className="header">
@@ -14,7 +20,12 @@ function Header() {
             />
           </Link>
         </div>
-        <div className="two">
+        <div className="hamburger" onClick={toggleMobileMenu}>
+          <span className={isMobileMenuOpen ? 'open' : ''}></span>
+          <span className={isMobileMenuOpen ? 'open' : ''}></span>
+          <span className={isMobileMenuOpen ? 'open' : ''}></span>
+        </div>
+        <div className={`two ${isMobileMenuOpen ? 'open' : ''}`}>
           <Link to="about" spy={true} smooth={true} duration={500}>
             About Us
           </Link>
@@ -24,7 +35,6 @@ function Header() {
           <a href="https://forms.gle/KasP6dne9LUzCX7A8" target="_blank" rel="noopener noreferrer">
             Register
           </a>
-
         </div>
       </header>
     </>
