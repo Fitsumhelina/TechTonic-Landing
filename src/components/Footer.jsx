@@ -46,10 +46,10 @@ const Footer = () => {
           <p><strong>Email:</strong> techtonic.inbox@gmail.com</p>
         </div>
         <div className="social-icons">
-          <a href="#"><FaTelegram/></a>
-          <a href="#"><FaInstagram/></a>
-          <a href="#"><FaLinkedin/></a>
-          <a href="#"><FaTiktok/></a>
+          <a href="https://t.me/TechTonicTribe"><FaTelegram/></a>
+          <a href="https://www.instagram.com/tech_tonic_tribe?igsh=MTY5NDZyYXkxdTZhOA=="><FaInstagram/></a>
+          <a href="https://www.linkedin.com/company/techtonic-tribe/"><FaLinkedin/></a>
+          <a href="https://www.tiktok.com/@tech_tonic_tribe"><FaTiktok/></a>
         </div>
       </div>
       <div className="footer-right">
