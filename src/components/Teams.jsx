@@ -46,9 +46,9 @@ const content = [
     role: "Education lead",
     imageUrl: image3,
     socialLinks: [
-      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
-      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: ' https://t.me/MTinasT', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/tinbit25', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/tinbite-elias', icon: <FaLinkedin /> },
     ]
   },
   
@@ -57,9 +57,9 @@ const content = [
     role: "Social Media Manager",
     imageUrl: image7,
     socialLinks: [
-      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
-      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: 'https://t.me/Ninanteneh', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/nard0s', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/nardosanteneh', icon: <FaLinkedin /> },
     ]
   },
  
@@ -68,9 +68,9 @@ const content = [
     role: "Content Creator",
     imageUrl: image5,
     socialLinks: [
-      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
-      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: 'https://t.me/Ato_Fitsum', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/fitsumhub', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsum-enunu-10ab2b2a1', icon: <FaLinkedin /> },
     ]
   },
  
@@ -79,9 +79,9 @@ const content = [
     role: "Membership&Recruit Leader ",
     imageUrl: image6,
     socialLinks: [
-      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
-      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: 'https://t.me/Betel1221', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/betel1221', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/betelhem-hiluf-b34214330/', icon: <FaLinkedin /> },
     ]
   },
   {
