@@ -36,9 +36,9 @@ const content = [
     role: "Event Organizer",
     imageUrl: image2,
     socialLinks: [
-      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
-      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: 'https://t.me/Yabe400', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/Yabe12', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/yeabsira-behailu-19504b285/', icon: <FaLinkedin /> },
     ]
   },
   {
@@ -89,9 +89,9 @@ const content = [
     role: "Event Coordinator",
     imageUrl: "https://media.licdn.com/dms/image/v2/D5603AQEfM1ZF1q-4GA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1727245514587?e=1735171200&v=beta&t=mgOzFGUaUv7G0GPa7u6uMfN4C7Hw9pl2V3dKFa7ZSqs",
     socialLinks: [
-      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
-      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: 'https://t.me/TechNova19', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/TechNova19', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/kal-kidan-025a44322', icon: <FaLinkedin /> },
     ]
   },
  
