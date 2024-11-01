@@ -25,9 +25,9 @@ const content = [
     role: "Vice President",
     imageUrl: image4,
     socialLinks: [
-      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
-      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
     ]
   },
  
@@ -36,9 +36,9 @@ const content = [
     role: "Event Organizer",
     imageUrl: image2,
     socialLinks: [
-      { platform: 'Telegram', url: 'https://t.me/Yabe400', icon: <FaTelegram /> },
-      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
     ]
   },
   {
@@ -46,9 +46,9 @@ const content = [
     role: "Education lead",
     imageUrl: image3,
     socialLinks: [
-      { platform: 'facebook', url: 'https://facebook.com', icon: <FaTelegram /> },
-      { platform: 'twitter', url: 'https://twitter.com', icon: <FaGithub /> },
-      { platform: 'linkedin', url: 'https://linkedin.com', icon: <FaLinkedin /> },
+      { platform: 'Telegram', url: 'https://t.me/per_777', icon: <FaTelegram /> },
+      { platform: 'Github', url: 'https://github.com/Fitsumhelina', icon: <FaGithub /> },
+      { platform: 'linkedin', url: 'https://www.linkedin.com/in/fitsumhelina/', icon: <FaLinkedin /> },
     ]
   },
   
