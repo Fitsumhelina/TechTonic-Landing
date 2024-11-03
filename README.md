@@ -48,11 +48,9 @@ Here are a few screenshots of the website:
 ![About Us](./public/assets/Screenshot1.png)
 *About Us page introducing our team and goals.*
 
-Add more screenshots as needed to illustrate other sections, like Services and Contact.
-
 ## Demo Video
 
-To get a quick overview of the website, watch our [demo video](./public/assets/demo.mp4) where we walk through the features and design of the TechTonic Tribe landing page.
+To get more  overview of the website, watch our [demo video](./public/assets/demo.mp4) where we walk through the features and design of the TechTonic Tribe landing page.
 
 ## Usage
 
