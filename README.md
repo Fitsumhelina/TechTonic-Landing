@@ -50,7 +50,7 @@ Here are a few screenshots of the website:
 
 ## Demo Video
 
-To get more  overview of the website, watch our [demo video](./public/assets/demo.mp4) where we walk through the features and design of the TechTonic Tribe landing page.
+To get more  overview of the website, watch our [demo video](https://youtu.be/cc1qc4DoZT8?si=XbVduI25oaglk6FK) where we walk through the features and design of the TechTonic Tribe landing page.
 
 ## Usage
 
