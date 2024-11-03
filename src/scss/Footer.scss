@@ -1,10 +1,10 @@
 .footer {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.751);
   color: #fff;
   padding: 20px 50px;
-  
+
   @media (max-width: 768px) {
     flex-direction: column;
     padding: 20px;
@@ -13,7 +13,7 @@
   .footer-left,
   .footer-right {
     width: 45%;
-    
+
     @media (max-width: 768px) {
       width: 100%;
       margin-bottom: 20px; // Adds space between the sections
@@ -38,7 +38,7 @@
     p {
       margin: 5px 0;
     }
-    
+
     p strong {
       color: var(--color2);
     }
@@ -59,7 +59,12 @@
       }
     }
   }
+  .info {
+    display: flex;
+    justify-content: space-between;
 
+    flex-direction: row;
+  }
   .footer-right {
     form {
       display: flex;
@@ -96,11 +101,11 @@
     }
   }
 
-  .footer-center{
+  .footer-center {
     display: flex;
-    align-items: center;
+    align-items: left;
     gap: 10px;
-    img{
+    img {
       width: 30px;
       height: 30px;
       object-fit: cover;
