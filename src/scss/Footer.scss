@@ -96,6 +96,18 @@
     }
   }
 
+  .footer-center{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img{
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+
   // Media query for small devices (Mobile)
   @media (max-width: 768px) {
     .footer-right {
