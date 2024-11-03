@@ -41,34 +41,17 @@ Welcome to the **TechTonic Tribe**'s official GitHub repository for our club's p
 
 Here are a few screenshots of the website:
 
-![Home Page](path/to/homepage-screenshot.png)
+![Home Page](./public/assets/Screenshot2.png)
 *Home Page showcasing our mission and values.*
 
-![About Us](path/to/aboutus-screenshot.png)
+![About Us](./public/assets/Screenshot1.png)
 *About Us page introducing our team and goals.*
 
 Add more screenshots as needed to illustrate other sections, like Services and Contact.
 
 ## Demo Video
 
-To get a quick overview of the website, watch our [demo video](path/to/demo-video.mp4) where we walk through the features and design of the TechTonic Tribe landing page.
-
-## Installation
-
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Fitsumhelina/TechTonic-Landing.git
-   cd TechTonic-Landing
-   ```
-
-2. **Open the project in your code editor.**
-
-3. **Run the application:**
-   - Open `index.html` in your browser to view the landing page.
-
-No additional dependencies are required.
+To get a quick overview of the website, watch our [demo video](./public/assets/demo.mp4) where we walk through the features and design of the TechTonic Tribe landing page.
 
 ## Usage
 
