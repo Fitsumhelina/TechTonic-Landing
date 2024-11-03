@@ -20,7 +20,7 @@ Welcome to the **TechTonic Tribe**'s official GitHub repository for our club's p
 
 ## Project Overview
 
-**TechTonic Tribe** is a club dedicated to fostering innovation, technology, and collaboration among its members. This landing page serves as our club's online presence, offering visitors insight into our goals, upcoming events, and resources. You can view the website live at [TechTonic Tribe's Website](https://github.com/Fitsumhelina/TechTonic-Landing).
+**TechTonic Tribe** is a club dedicated to fostering innovation, technology, and collaboration among its members. This landing page serves as our club's online presence, offering visitors insight into our goals, upcoming events, and resources. You can view the website live at [TechTonic Tribe's Website](https://techtonictribe.netlify.app/).
 
 ## Features
 
@@ -32,10 +32,10 @@ Welcome to the **TechTonic Tribe**'s official GitHub repository for our club's p
 
 ## Technologies Used
 
-- **HTML5** and **CSS3** for structure and styling
-- **JavaScript** for interactive elements and dynamic content
-- **Bootstrap** (optional) for responsive layout and components
-- **Font Awesome** for icons and visual elements
+- **HTML5** and **Scss** for structure and styling
+- **JavaScript/React(vite)** for interactive elements and dynamic content
+- **Tailwind**  for responsive layout and components
+- **Google font** and **React icons** for icons and visual elements
 
 ## Screenshots
 
@@ -102,8 +102,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 For any questions, suggestions, or feedback, feel free to reach out to us:
 
 - **Email:** [example@tectonictribe.com](mailto:example@tectonictribe.com)
+
+Developed by :
+
 - **GitHub:** [Fitsumhelina](https://github.com/Fitsumhelina)
 
 ---
 
-This README now includes sections for both screenshots and a demo video to better showcase the project’s functionality and design. Make sure to replace `path/to/...` placeholders with the actual paths to your media files in the repository!
