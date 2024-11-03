@@ -105,11 +105,16 @@
     display: flex;
     align-items: left;
     gap: 10px;
+    font-size: .5rem;
     img {
-      width: 30px;
-      height: 30px;
+      width: 25px;
+      height: 25px;
       object-fit: cover;
       border-radius: 50%;
+    }
+    p{
+      // margin-top: 5px;
+      font-size: .8rem;
     }
   }
 
