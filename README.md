@@ -21,6 +21,7 @@ Welcome to the **TechTonic Tribe**'s official GitHub repository for our club's p
 ## Project Overview
 
 **TechTonic Tribe** is a club dedicated to fostering innovation, technology, and collaboration among its members. This landing page serves as our club's online presence, offering visitors insight into our goals, upcoming events, and resources. You can view the website live at [TechTonic Tribe's Website](https://techtonictribe.netlify.app/).
+> **Note**: This website was built entirely from scratch, without reusing templates or existing code. The project is licensed under a prohibitive license to prevent reuse, redistribution, or modification outside of TechTonic Tribe.
 
 ## Features
 
