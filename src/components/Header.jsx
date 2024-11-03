@@ -32,7 +32,7 @@ function Header() {
           <Link to="footer" spy={true} smooth={true} duration={500}>
             Contact Us
           </Link>
-          <a href="https://forms.gle/KasP6dne9LUzCX7A8" target="_blank" rel="noopener noreferrer">
+          <a href="https://forms.gle/6EvSes7cFgoeGt349" target="_blank" rel="noopener noreferrer">
             Register
           </a>
         </div>
