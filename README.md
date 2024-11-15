@@ -1,4 +1,3 @@
-Great! Including screenshots and a demo video will make the README even more engaging and helpful for visitors. Here’s an updated README template with sections for screenshots and a demo video.
 
 ---
 
